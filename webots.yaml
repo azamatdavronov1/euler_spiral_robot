@@ -1,1 +1,4 @@
+version: R2023b
+type: simulation
+world: "worlds/euler_spiral_world.wbt"
 
