@@ -1,1 +1,26 @@
+#VRML_SIM R2023b utf8
+WorldInfo {
+  basicTimeStep 32
+}
+
+Viewpoint {
+  orientation -0.577 0.577 0.577 2.09
+  position 0.5 0.5 0.3
+}
+
+TexturedBackground {}
+TexturedBackgroundLight {}
+
+# Ground plane
+Floor {
+  translation 0 0 0
+  size 2 2
+}
+
+# Robot
+E-puck {
+  translation 0 0 0.02
+  rotation 0 0 1 0
+  controller "trajectory_controller"
+}
 
